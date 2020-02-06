@@ -1,4 +1,5 @@
 export function getBarLabelText(datum, component, total) {
+
   if (datum.qNum === 3) {
     return '';
   }
