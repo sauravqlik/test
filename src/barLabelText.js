@@ -3,7 +3,7 @@ export function getBarLabelText(datum, component, total) {
   if (datum.qNum === 3) {
     return '';
   }
-  if (total && datum.qNum) {
+  if (total) {
     return component.showTot === 'D' ? datum.dim1 : datum.qText;
   }
   if (component.showDim === 'D') {
